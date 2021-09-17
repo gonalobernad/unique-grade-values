@@ -1,6 +1,6 @@
 # CodeChallenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1. The challenge consists in getting the unique great values of 3 arrays:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1. The challenge consists in getting the unique grade values of 3 arrays:
     `var gradeA = [12, 15, 11, 17, 19];
     var gradeB = [10, 15, 17, 13, 19];
     var gradeC = [18, 15, 19, 17, 14];`
