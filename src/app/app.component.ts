@@ -23,13 +23,13 @@ export class AppComponent {
     let arrayBuffer = [];
     arrayBuffer = [...array1, ...array2, ...array3];
 
-    let output2 = [];
+    let output = [];
     arrayBuffer.filter( item => {
       if (arrayBuffer.filter(a => a == item).length < 2) 
-        output2 = [...output2, item];
+        output = [...output, item];
     });
     // console.table(arrayBuffer);
-    console.log('unique gradevalues', output2);
-    return output2;
+    console.log('unique gradevalues', output);
+    return output;
   }
 }
