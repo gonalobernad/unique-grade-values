@@ -19,7 +19,6 @@ export class AppComponent {
   }
 
   private uniqueGradeValues(array1: any, array2: any, array3: any ) {
-    array1.concat(array2)
     let arrayBuffer = [];
     arrayBuffer = [...array1, ...array2, ...array3];
 
